@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.q{
+    margin: 10px;
+    margin-left: 100px;
+}
+.w{
+  float: right;
+  margin: 5px;
+  margin-right: 100px;
+}
+.r{
+    
+    font-size:30px ;
+    font-weight:900;
+    margin-top: 0px;
+    color: rgb(28, 120, 28);
+}
+button{
+    width: 130px;
+    height: 25px;
+    font-size: 3px;
+    color: aliceblue;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+button:hover{
+    background-color:black;
+}
+.y{
+    background-color: rgb(191, 188, 188);
+}
+.t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.u{
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-color: rgb(194, 192, 192);
+    padding-top: 40px;
+    position: relative;
+    align-items: center;
+    z-index: 1000;
+}
+.i{
+    text-align: center;
+}
+.ii::after{
+    content: "";
+    border-left: 50px solid green;
+    height: 300px;
+    left: 40%;
+    top: 7%;
+    z-index: -100;
+    position: absolute;
+}
+.o::after{
+    content: "";
+    border: 35px solid rgb(35, 200, 134);
+   border-radius: 50%;
+   background-color:rgb(35, 200, 134);
+   margin-top:-280px;
+   margin-left: 380px;
+   position: absolute;  
+}
+.d{
+    text-align: center;
+}
+h1{
+    color: rgb(15, 148, 15);
+}
+.f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-right: 80px;
+}
+.g{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(191, 187, 187);
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.h{
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+h2{
+    color: green;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-left: 280px;
+}
+.k{
+    padding-right: 100px;
+    padding-top: 40px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(189, 187, 187);
+}
+.jj::after{
+    content: "";
+    border: 8px solid rgb(23, 123, 23);
+    width: 0;
+   height: 60px;
+   margin-top:-160px;
+   margin-left: -12px;
+   position: absolute;
+}
+.kk::before{
+    content: "";
+    border: 8px solid rgb(23, 123, 23);
+    width: 0;
+   height: 60px;
+   margin-top:-160px;
+   margin-left: -330px;
+   position: absolute;
+}
+
+h3{
+    color: rgb(23, 123, 23);
+    font-weight: 900;
+    font-size: 25px;
+}
+.z{
+    margin-top: 50px;
+    width:1200px;
+    height: 300px;
+    background-color: rgb(189, 187, 187);
+    text-align: center;
+}
+h4{
+    color:rgb(14, 138, 14) ;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.x{
+    margin-left: 380px;
+    width:450px ;
+    height: 210px;
+    background-color: rgb(248, 250, 252);   
+}
+input{
+
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 400px;
+    height: 25px;
+    background-color:  rgb(189, 187, 187);
+    border: none;
+}
+.c{
+    height: 75px;
+}
+input::placeholder{
+    color: #000;
+    padding: 5px;
+}
+.c::placeholder{
+    padding-bottom: 70px;
+}
+p:hover{
+    background-color: rgb(83, 81, 81);
+}
+h2:hover{
+    background-color: rgb(83, 81, 81);
+}
+h1:hover{
+    background-color: rgb(83, 81, 81);
+}
+h4:hover{
+    background-color: rgb(83, 81, 81);
+}
